@@ -37,7 +37,7 @@ namespace foci
             }
 
             teams = matches.Select(x => x.HomeTeam).Distinct().ToList();
-            
+
         }
 
         //Task 2
@@ -65,12 +65,12 @@ namespace foci
         {
             Console.WriteLine("\n-- Task 3 --\n");
 
-            List<Matches> current = matches.Where(x => 
+            List<Matches> current = matches.Where(x =>
                 (x.HomeGoals > x.AwayGoals && x.HomeHalf < x.AwayHalf) ||
                 (x.HomeGoals < x.AwayGoals && x.HomeHalf > x.AwayHalf)
             ).ToList();
 
-            foreach(var m in current)
+            foreach (var m in current)
             {
                 string winner;
                 if (m.HomeGoals > m.AwayGoals) { winner = m.HomeTeam; }
@@ -94,7 +94,7 @@ namespace foci
             Console.WriteLine("Press Enter to choose a team");
             Console.ReadKey();
 
-            foreach(var t in teams)
+            foreach (var t in teams)
             {
                 teamOptions.Add(new Option(t, () => choosenTeam = (teams[index])));
             }
@@ -102,16 +102,27 @@ namespace foci
             GetOptions(teamOptions);
 
             Console.Clear();
+            
+
+        }
+
+        public List<Matches> teamMatches;
+
+        //Task 5
+        public void Task5()
+        {
+            Console.WriteLine("\n-- Task 5 --\n");
+
             Console.WriteLine($"{choosenTeam}\n");
 
-            List<Matches> teamMatches = matches.Where(x => x.HomeTeam == choosenTeam || x.AwayTeam == choosenTeam).ToList();
+            teamMatches = matches.Where(x => x.HomeTeam == choosenTeam || x.AwayTeam == choosenTeam).ToList();
 
             int scored = 0;
             int conceded = 0;
 
-            foreach(var m in teamMatches)
+            foreach (var m in teamMatches)
             {
-                if(m.HomeTeam == choosenTeam)
+                if (m.HomeTeam == choosenTeam)
                 {
                     scored += m.HomeGoals;
                     conceded += m.AwayGoals;
@@ -124,6 +135,29 @@ namespace foci
             }
 
             Console.WriteLine($"Goals scored: {scored}\nGoals conceded: {conceded}");
+
+        }
+
+        //Task 6
+        public void Task6()
+        {
+            Console.WriteLine("\n-- Task 6 --\n");
+
+            try
+            {
+                Matches firstLost = teamMatches.Where(x => x.HomeTeam == choosenTeam && x.HomeGoals < x.AwayGoals).First();
+                Console.WriteLine($"First lost in fixture {firstLost.Fixture}, against {firstLost.AwayTeam}.");
+            }
+            catch { Console.WriteLine($"{choosenTeam} was undefeated at home."); }
+            
+
+        }
+
+        //Task 7
+        public void Task7()
+        {
+            Console.WriteLine("\n-- Task 7 --\n");
+
 
         }
 

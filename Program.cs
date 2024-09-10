@@ -9,6 +9,8 @@
             t.Task2();
             t.Task3();
             t.Task4();
+            t.Task5();
+            t.Task6();
         }
     }
 }

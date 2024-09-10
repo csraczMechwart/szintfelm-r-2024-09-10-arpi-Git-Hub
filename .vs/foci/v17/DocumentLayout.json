@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{D3C5ACF8-8F55-48A3-8E01-3495E584CF00}|foci.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3C5ACF8-8F55-48A3-8E01-3495E584CF00}|foci.csproj|c:\\users\\lenovo\\onedrive\\dokumentumok\\iskola\\ikt\\foci\\foci\\matches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3C5ACF8-8F55-48A3-8E01-3495E584CF00}|foci.csproj|solutionrelative:matches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3C5ACF8-8F55-48A3-8E01-3495E584CF00}|foci.csproj|c:\\users\\lenovo\\onedrive\\dokumentumok\\iskola\\ikt\\foci\\foci\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3C5ACF8-8F55-48A3-8E01-3495E584CF00}|foci.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3C5ACF8-8F55-48A3-8E01-3495E584CF00}|foci.csproj|c:\\users\\lenovo\\onedrive\\dokumentumok\\iskola\\ikt\\foci\\foci\\matches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3C5ACF8-8F55-48A3-8E01-3495E584CF00}|foci.csproj|solutionrelative:matches.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,14 +32,14 @@
               "RelativeDocumentMoniker": "Task.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Dokumentumok\\Iskola\\IKT\\Foci\\foci\\Task.cs",
               "RelativeToolTip": "Task.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAH0AAABVAAAA",
+              "ViewState": "AQIAAIwAAAAAAAAAAAAAAJ4AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T07:11:02.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Matches.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Dokumentumok\\Iskola\\IKT\\Foci\\foci\\Matches.cs",
               "RelativeDocumentMoniker": "Matches.cs",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Dokumentumok\\Iskola\\IKT\\Foci\\foci\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
