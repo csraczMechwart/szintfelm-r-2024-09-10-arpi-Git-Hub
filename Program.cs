@@ -6,6 +6,7 @@
         {
             Task t = new Task();
             t.GetData("meccs.txt");
+            t.Task2();
         }
     }
 }

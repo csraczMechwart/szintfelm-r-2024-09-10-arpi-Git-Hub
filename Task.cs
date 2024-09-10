@@ -26,5 +26,20 @@ namespace foci
                 matches.Add(new Matches(f, hg, ag, hh, ah, ht, at));
             }
         }
+
+        //Task 2
+        public void Task2()
+        {
+            //Get the fixture
+            Console.Write("Which fixture's results do you wanna see: ");
+            int fixture = Convert.ToInt32(Console.ReadLine());
+
+            List<Matches> current = matches.Where(x => x.Fixture == fixture).ToList();
+
+            foreach (var m in current)
+            {
+                Console.WriteLine($"{m.HomeTeam}-{m.AwayTeam}: {m.HomeGoals}-{m.AwayGoals} ({m.HomeHalf}-{m.AwayHalf})");
+            }
+        }
     }
 }
