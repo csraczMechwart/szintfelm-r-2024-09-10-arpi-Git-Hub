@@ -1,0 +1,15 @@
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\bin\Debug\net8.0\foci.exe
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\bin\Debug\net8.0\foci.deps.json
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\bin\Debug\net8.0\foci.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\bin\Debug\net8.0\foci.dll
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\bin\Debug\net8.0\foci.pdb
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.sourcelink.json
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.dll
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\refint\foci.dll
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.pdb
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\foci.genruntimeconfig.cache
+C:\Users\Lenovo\OneDrive\Dokumentumok\Iskola\IKT\Foci\foci\obj\Debug\net8.0\ref\foci.dll

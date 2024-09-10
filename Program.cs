@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
+            Task t = new Task();
+            t.GetData("meccs.txt");
         }
     }
 }

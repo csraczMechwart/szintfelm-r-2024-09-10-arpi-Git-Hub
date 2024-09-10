@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("foci")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1dd1e8707ecea0899c7e3380083eaf2cf5c56ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e533fe192d18e0f2d296898e24a3f7422cf8600")]
 [assembly: System.Reflection.AssemblyProductAttribute("foci")]
 [assembly: System.Reflection.AssemblyTitleAttribute("foci")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
