@@ -34,11 +34,29 @@ namespace foci
             Console.Write("Which fixture's results do you wanna see: ");
             int fixture = Convert.ToInt32(Console.ReadLine());
 
+            //List the given fixture's matches
             List<Matches> current = matches.Where(x => x.Fixture == fixture).ToList();
 
             foreach (var m in current)
             {
                 Console.WriteLine($"{m.HomeTeam}-{m.AwayTeam}: {m.HomeGoals}-{m.AwayGoals} ({m.HomeHalf}-{m.AwayHalf})");
+            }
+        }
+
+        //Task 3
+        public void Task3()
+        {
+            List<Matches> current = matches.Where(x => 
+                (x.HomeGoals > x.AwayGoals && x.HomeHalf < x.AwayHalf) ||
+                (x.HomeGoals < x.AwayGoals && x.HomeHalf > x.AwayHalf)
+            ).ToList();
+
+            foreach(var m in current)
+            {
+                string winner;
+                if (m.HomeGoals > m.AwayGoals) { winner = m.HomeTeam; }
+                else { winner = m.AwayTeam; }
+                Console.WriteLine($"Fixture {m.Fixture}: {winner}");
             }
         }
     }
