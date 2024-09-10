@@ -8,6 +8,7 @@
             t.GetData("meccs.txt");
             t.Task2();
             t.Task3();
+            t.Task4();
         }
     }
 }
